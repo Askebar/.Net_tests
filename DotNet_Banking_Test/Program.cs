@@ -10,6 +10,9 @@ Console.WriteLine(account.Balance);
 
 Console.WriteLine(account.GetAccountHistory());
 
+
+var john = new BankAccount("john", 1000);
+Console.WriteLine($"Account {john.Number} was created for {john.Owner} with {john.Balance} initial balance.");
 /*
 // Test for a negative balance.
 try

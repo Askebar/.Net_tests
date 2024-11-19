@@ -1,0 +1,15 @@
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\bin\Debug\net9.0\DotNet_Dijkstra.exe
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\bin\Debug\net9.0\DotNet_Dijkstra.deps.json
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\bin\Debug\net9.0\DotNet_Dijkstra.runtimeconfig.json
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\bin\Debug\net9.0\DotNet_Dijkstra.dll
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\bin\Debug\net9.0\DotNet_Dijkstra.pdb
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\DotNet_Dijkstra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\DotNet_Dijkstra.AssemblyInfoInputs.cache
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\DotNet_Dijkstra.AssemblyInfo.cs
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\DotNet_Dijkstra.csproj.CoreCompileInputs.cache
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\DotNet_Dijkstra.sourcelink.json
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\DotNet_Dijkstra.dll
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\refint\DotNet_Dijkstra.dll
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\DotNet_Dijkstra.pdb
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\DotNet_Dijkstra.genruntimeconfig.cache
+D:\Git\DotNet_learning\.Net_tests\DotNet_Dijkstra\obj\Debug\net9.0\ref\DotNet_Dijkstra.dll

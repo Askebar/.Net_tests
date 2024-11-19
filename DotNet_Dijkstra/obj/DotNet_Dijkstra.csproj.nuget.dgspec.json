@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Banking_Test\\DotNet_Again.csproj": {}
+    "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Dijkstra\\DotNet_Dijkstra.csproj": {}
   },
   "projects": {
-    "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Banking_Test\\DotNet_Again.csproj": {
+    "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Dijkstra\\DotNet_Dijkstra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Banking_Test\\DotNet_Again.csproj",
-        "projectName": "DotNet_Again",
-        "projectPath": "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Banking_Test\\DotNet_Again.csproj",
+        "projectUniqueName": "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Dijkstra\\DotNet_Dijkstra.csproj",
+        "projectName": "DotNet_Dijkstra",
+        "projectPath": "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Dijkstra\\DotNet_Dijkstra.csproj",
         "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Banking_Test\\obj\\",
+        "outputPath": "D:\\Git\\DotNet_learning\\.Net_tests\\DotNet_Dijkstra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config"
