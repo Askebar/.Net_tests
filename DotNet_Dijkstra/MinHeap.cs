@@ -12,7 +12,7 @@ public class MinHeap<T> where T: IComparable<T>{
     }
 
     public int getPositon(T item){ //gets the position of a specific item
-        return positionTable[item];
+        return positionTable[item];    
     }
 
     public bool isEmpty(){ //checks if the que is empty
@@ -43,7 +43,7 @@ public class MinHeap<T> where T: IComparable<T>{
         decreaseKey(size - 1);
     }
 
-    public void decreaseKey(int pos){ //compares the position to the parrent if it have higher priority it swaps the pos with the parrent
+    public void decreaseKey(int pos){ //compares the position to the parrent if it have higher priority it swaps the pos with the parent
         int currentpos = pos;
         while (minHeap[currentpos].CompareTo(minHeap[Parent(currentpos)]) < 0){ 
             swap(currentpos, Parent(currentpos));

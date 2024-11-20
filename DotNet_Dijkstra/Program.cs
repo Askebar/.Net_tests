@@ -4,6 +4,33 @@ using Vertices;
 
 AdjacencyGraph graph = new AdjacencyGraph();
 
+
+Vertex start = new Vertex("start");
+start.dist = 0;
+
+Vertex seven = new Vertex("7");
+Vertex nine = new Vertex("9");
+Vertex eleven = new Vertex("11");
+Vertex twenty1 = new Vertex("20 top");
+Vertex twenty2 = new Vertex("20 bot");
+
+graph.addVertex(start);
+graph.addVertex(seven);
+graph.addVertex(nine);
+graph.addVertex(eleven);
+graph.addVertex(twenty1);
+graph.addVertex(twenty2);
+
+graph.addUndirectedEdge(start, nine, 9);
+graph.addUndirectedEdge(start, seven, 7);
+graph.addUndirectedEdge(start, eleven, 14);
+graph.addUndirectedEdge(seven, nine, 10);
+graph.addUndirectedEdge(seven, twenty2, 15);
+graph.addUndirectedEdge(nine, twenty2, 11);
+graph.addUndirectedEdge(nine, eleven, 2);
+graph.addUndirectedEdge(eleven, twenty1, 9);
+graph.addUndirectedEdge(twenty1, twenty2, 9);
+/*
 Vertex Eskildstrup = new Vertex("Eskildstrup");
 Vertex Haslev=new Vertex("Haslev");
 Vertex Holbæk=new Vertex("Holbæk");
@@ -85,6 +112,10 @@ graph.addUndirectedEdge(Ringsted, Sorø, 15);
 graph.addUndirectedEdge(Ringsted, Vordingborg, 58);
 graph.addUndirectedEdge(Slagelse, Sorø, 14);
 
+*/ 
 graph.AdjacencyGraphMST();
-graph.PrintGraph();
+//graph.PrintGraph();
+graph.getMST();
+
+
 //Console.WriteLine($"{otherPlace.CompareTo(otherPlace)}");
