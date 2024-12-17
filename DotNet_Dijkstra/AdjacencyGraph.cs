@@ -43,43 +43,39 @@ public class AdjacencyGraph{
             Vertex step = que.extractMin();
             foreach(Vertex.Edge edge in step.OutEdge){
                 Vertex to = edge.to;
-                if((to.dist > step.dist + edge.weight) && !to.vistited){     //might not need to make the visited thing
+                if((to.dist > step.dist + edge.weight) && !to.vistited){     //if the to vertex is greater
                     to.prev = step;
                     to.dist = step.dist + edge.weight;
                     int pos = que.getPositon(to);
                     que.decreaseKey(pos);
-                    to.setIncEdge(edge);
+                    to.incEdge = edge;
                 }
             }
             step.vistited = true;
         } 
     }
-    public void PrintGraph(){
-        foreach(Vertex vertex in Vertices){
+    public void PrintGraph(){ //gets the entire graph shows all the vertices and their conctions
+        foreach(Vertex vertex in Vertices){ //goes through the vertices
             Console.WriteLine($"vertex {vertex.name} is connected to");
-            foreach(Vertex.Edge edge in vertex.OutEdge){
+            foreach(Vertex.Edge edge in vertex.OutEdge){ //goes through the Edges of each vertex
                 Console.WriteLine($"   vertex {edge.to.name} with dist {edge.weight}");
             }
-            if(vertex.incEdge != null){
-                lenght =+ vertex.incEdge.weight;
-            }
-
         }
-        Console.WriteLine($"total distance spanned {lenght}");
     }
-    public void getMST(){
+    public void getMST(){ // prints the MST after generating it with the AdjacencyGraphMST() or debugAdjacencyGraphMST()
         foreach(Vertex vertex in Vertices){
             if (vertex.prev != null){
                 Console.WriteLine($"vertex {vertex.name} is connected to {vertex.prev.name}");
             }
-            if(vertex.incEdge != null){
+            if(vertex.incEdge != null){ // adds all the inc edges together to get the total lenght
                 lenght += vertex.incEdge.weight;
             }
         }
-        Console.WriteLine($"total distance spanned {lenght}");
+        Console.WriteLine($"total distance spanned {lenght}"); //prints the total length
     }
 
-    public void debugAdjacencyGraphMST(){
+
+    public void debugAdjacencyGraphMST(){ //makes the MST while printing each step, mainly used for debugging
         MinHeap<Vertex> que = new MinHeap<Vertex>();
         foreach(Vertex vertex in Vertices){
             que.Insert(vertex);
@@ -94,10 +90,10 @@ public class AdjacencyGraph{
             Console.WriteLine($"step dist: {step.dist}");
             foreach(Vertex.Edge edge in step.OutEdge){
                 Vertex to = edge.to;
-                Console.WriteLine($"    edge wight: {edge.weight}");
+                Console.WriteLine($"    edge weight: {edge.weight}");
                 Console.WriteLine($"    before if name: {to.name}");
                 Console.WriteLine($"    before if: {to.dist}");
-                if((to.dist > step.dist + edge.weight) && !to.vistited){     //might not need to make the visited thing
+                if((to.dist > step.dist + edge.weight) && !to.vistited){
                     to.prev = step;
                     to.dist = step.dist + edge.weight;
                     Console.WriteLine($"        to dist: {to.dist}");
@@ -109,7 +105,6 @@ public class AdjacencyGraph{
             }
             Console.WriteLine($"final name: {step.name}");
             Console.WriteLine($"final dist: {step.dist}");
-            lenght += step.dist; //variable to hold the total length
         } 
     }
 }

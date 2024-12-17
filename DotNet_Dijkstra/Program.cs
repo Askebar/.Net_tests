@@ -30,6 +30,11 @@ graph.addUndirectedEdge(nine, twenty2, 11);
 graph.addUndirectedEdge(nine, eleven, 2);
 graph.addUndirectedEdge(eleven, twenty1, 9);
 graph.addUndirectedEdge(twenty1, twenty2, 9);
+
+graph.AdjacencyGraphMST();
+//graph.PrintGraph();
+graph.getMST();
+
 /*
 Vertex Eskildstrup = new Vertex("Eskildstrup");
 Vertex Haslev=new Vertex("Haslev");
@@ -113,9 +118,4 @@ graph.addUndirectedEdge(Ringsted, Vordingborg, 58);
 graph.addUndirectedEdge(Slagelse, Sorø, 14);
 
 */ 
-graph.AdjacencyGraphMST();
-//graph.PrintGraph();
-graph.getMST();
-
-
 //Console.WriteLine($"{otherPlace.CompareTo(otherPlace)}");

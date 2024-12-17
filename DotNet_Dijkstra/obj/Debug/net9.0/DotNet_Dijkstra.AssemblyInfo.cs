@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNet_Dijkstra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62f8d230cedbc6f8fcfe1db93fe8670b4e427d1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+317f2fc4223bcb1894b67dac09ec4195ad33d8e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNet_Dijkstra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNet_Dijkstra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
